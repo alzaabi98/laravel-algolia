@@ -32,6 +32,8 @@ Vue.component(
     require("./components/InstantSearch.vue").default
 );
 
+Vue.component("instant-post", require("./components/InstantPost.vue").default);
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

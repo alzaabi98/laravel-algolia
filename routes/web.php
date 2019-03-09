@@ -53,3 +53,5 @@ Route::get('/searchPosts', function(Request $request) {
 });
 
 Route::view('/instantsearch', 'instantsearch');
+
+Route::view('/instantpost', 'instantpost');
